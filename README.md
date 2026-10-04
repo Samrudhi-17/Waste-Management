@@ -70,7 +70,6 @@ The main objectives of this project are:
 
 ## 🔄 Data Science Workflow
 
-```text
 Data Collection
       ↓
 Data Understanding
@@ -180,15 +179,45 @@ The final feature list and preprocessing rules will be agreed upon by both proje
 
 ## 📁 Project Structure
 
-```text
 Waste-Management-ML/
 │
 ├── data/
-│   └── r_data_set.csv
+│   └── data_set.csv
 │
 ├── notebooks/
 │   ├── 01_Data_Understanding.ipynb
-│   ├── 02_Member1_Preprocessing_Classification.ipynb
-│   ├── 03_Member2_E
-```
-
+│   ├── 02_Preprocessing.ipynb
+│   ├── 03_EDA_Statistics.ipynb
+│   ├── 04_Regression_Classification.ipynb
+│   └── 05_Final_Integration.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── eda.py
+│   ├── statistics.py
+│   ├── classification.py
+│   └── regression.py
+│
+├── models/
+│   ├── logistic_regression.pkl
+│   ├── decision_tree.pkl
+│   ├── linear_regression.pkl
+│   └── random_forest.pkl
+│
+├── results/
+│   ├── figures/
+│   │   ├── histograms/
+│   │   ├── boxplots/
+│   │   ├── barplots/
+│   │   ├── lineplots/
+│   │   ├── scatterplots/
+│   │   └── heatmaps/
+│   │
+│   ├── classification_results.csv
+│   ├── regression_results.csv
+│   └── statistical_test_results.txt
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
