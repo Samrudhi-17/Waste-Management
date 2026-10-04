@@ -68,31 +68,6 @@ The main objectives of this project are:
 
 ---
 
-## 🔄 Data Science Workflow
-
-Data Collection
-      ↓
-Data Understanding
-      ↓
-Data Preprocessing
-      ↓
-Exploratory Data Analysis
-      ↓
-Statistical Analysis
-      ↓
-Machine Learning
-      ↓
-Model Evaluation
-      ↓
-Interpretation
-      ↓
-Streamlit Deployment
-      ↓
-Final Presentation
-```
-
----
-
 ## 🤖 Machine Learning Models
 
 ### Classification
